@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="./assests/reset.css"> <!--linha que vem primeiro-->
+
+	<link rel="stylesheet" type="text/css" href="./assests/bootstrap/css/bootstrap.min.css"> <!--link do css do bootstrap-->
+
+	<link rel="stylesheet" type="text/css" href="./css/estilo.css"> <!-- meu estilo css-->
+
+    <title> Calculadora simples </title>
+</head>
+<body>
+    <main id="container">
+        <div id="calculadora">
+            <h1> Calculadora simples: </h1>
+
+            <div id="input_box">
+                <div class="input-field">
+                    <label> Digite o 1º número: </label>
+                    <input id="n1" type="number" class="col-4"><br>
+
+                </div>
+                <div class="input-field">
+                    <label for="vlor"> Digite o 2º número:</label>
+                    <input id="n2" type="number" class="col-4"><br>
+
+                </div>
+            </div>
+
+            <div id="botao">
+                <h2> calcular </h2>
+                
+                <button class="botao" onclick="somar()">+</button>
+                <button class="botao" onclick="subtrair()">-</button>
+                <button class="botao" onclick="multiplicar()">*</button>
+                <button class="botao" onclick="dividir()">/</button>
+                
+               
+
+                
+    
+            </div>
+             
+            
+            <br>
+
+            <div class="resultado">
+                
+                <span id="calcular" placeholder=""> resultado</span>
+            </div>
+
+
+            
+            
+
+            
+
+
+
+
+        </div>
+
+
+
+
+    </main>
+
+
+   
+
+    
+    
+
+
+
+
+
+
+
+
+    <script src="./js/script.js"></script>  
+</body>
+</html>
